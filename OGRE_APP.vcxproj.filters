@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\入口">
+      <UniqueIdentifier>{fb96f84f-c77a-4f13-a777-c9c94b1016d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\准备">
+      <UniqueIdentifier>{35db636b-549b-4f66-bec2-8de852748b46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\入口">
+      <UniqueIdentifier>{f32d4455-584a-4a06-8abc-2b4ebf491c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\绘制部分">
+      <UniqueIdentifier>{a92dd0e5-fc42-4480-80d7-f8c1ef9ec14b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\绘制部分">
+      <UniqueIdentifier>{e629d9e5-57e7-44b4-9b8e-9f9765c7f470}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\准备">
+      <UniqueIdentifier>{66a0f581-652c-4056-9fa7-f4674b022ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\声音">
+      <UniqueIdentifier>{d6ded9f5-5d16-4925-9c12-8183b13925d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\声音">
+      <UniqueIdentifier>{ccbaed92-67e0-479a-adb3-a74612ae39a6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>头文件\入口</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件\准备</Filter>
+    </ClInclude>
+    <ClInclude Include="OgreApp.h">
+      <Filter>头文件\绘制部分</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>头文件\准备</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件\准备</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundSystem.h">
+      <Filter>头文件\声音</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiSystem.h">
+      <Filter>头文件\绘制部分</Filter>
+    </ClInclude>
+    <ClInclude Include="MyFrameListener.h">
+      <Filter>头文件\绘制部分</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreeDimentionalApplication.h">
+      <Filter>头文件\绘制部分</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件\入口</Filter>
+    </ClCompile>
+    <ClCompile Include="OgreApp.cpp">
+      <Filter>源文件\绘制部分</Filter>
+    </ClCompile>
+    <ClCompile Include="define.cpp">
+      <Filter>源文件\准备</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundSystem.cpp">
+      <Filter>源文件\声音</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiSystem.cpp">
+      <Filter>源文件\绘制部分</Filter>
+    </ClCompile>
+    <ClCompile Include="MyFrameListener.cpp">
+      <Filter>源文件\绘制部分</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件\准备</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreeDimentionalApplication.cpp">
+      <Filter>源文件\绘制部分</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

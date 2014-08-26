@@ -1,0 +1,81 @@
+﻿生成启动时间为 2014/8/22 23:17:48。
+     1>项目“e:\documents\visual studio 2010\Projects\OGRE_APP\OGRE_APP\OGRE_APP.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\OGRE_APP.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"d:\VR\OGRESDK_VC10_V1-8-0\include" /I"d:\VR\OGRESDK_VC10_V1-8-0\include\OGRE" /I"d:\VR\OGRESDK_VC10_V1-8-0\include\OIS" /I"D:\vr\CEGUI\CEGUI-0.7.5\cegui\include" /I"D:\vr\CEGUI\CEGUI-0.7.5\dependencies\include" /I"D:\vr\CEGUI\CEGUI-0.7.5\Samples\common\include" /I"D:\vr\CEGUI\CEGUI-0.7.5\cegui\include\elements" /I"D:\vr\CEGUI\CEGUI-0.7.5\cegui\include\falagard" /I"D:\vr\CEGUI\CEGUI-0.7.5\cegui\include\ImageCodecModules" /I"D:\vr\CEGUI\CEGUI-0.7.5\cegui\include\RendererModules" /I"D:\vr\CEGUI\CEGUI-0.7.5\cegui\include\ScriptingModules" /I"D:\vr\CEGUI\CEGUI-0.7.5\cegui\include\WindowRendererSets" /I"D:\vr\CEGUI\CEGUI-0.7.5\cegui\include\XMLParserModules" /I"D:\VR\FMOD\FMOD PROGRAMMERS API WINDOWS\API\API\inc" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt define.cpp ThreeDimentionalApplication.cpp MyFrameListener.cpp GuiSystem.cpp main.cpp OgreApp.cpp SoundSystem.cpp stdafx.cpp
+         define.cpp
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(343): warning C4244: “+=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(344): warning C4244: “-=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(348): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(349): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(454): warning C4244: “-=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>define.cpp(22): warning C4305: “初始化”: 从“int”到“float”截断
+         ThreeDimentionalApplication.cpp
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(343): warning C4244: “+=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(344): warning C4244: “-=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(348): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(349): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(454): warning C4244: “-=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+         MyFrameListener.cpp
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(343): warning C4244: “+=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(344): warning C4244: “-=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(348): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(349): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(454): warning C4244: “-=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>MyFrameListener.cpp(21): warning C4305: “=”: 从“double”到“Ogre::Real”截断
+     1>MyFrameListener.cpp(275): warning C4060: switch 语句没有包含“case”或“default”标签
+         GuiSystem.cpp
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(343): warning C4244: “+=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(344): warning C4244: “-=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(348): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(349): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(454): warning C4244: “-=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>GuiSystem.cpp(182): warning C4172: 返回局部变量或临时变量的地址
+         main.cpp
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(343): warning C4244: “+=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(344): warning C4244: “-=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(348): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(349): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(454): warning C4244: “-=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+         OgreApp.cpp
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(343): warning C4244: “+=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(344): warning C4244: “-=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(348): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(349): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(454): warning C4244: “-=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>OgreApp.cpp(708): warning C4129: “: 不可识别的字符转义序列
+         SoundSystem.cpp
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(343): warning C4244: “+=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(344): warning C4244: “-=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(348): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(349): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(454): warning C4244: “-=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+         stdafx.cpp
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(343): warning C4244: “+=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(344): warning C4244: “-=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(348): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(349): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\ExampleFrameListener.h(454): warning C4244: “-=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"e:\documents\visual studio 2010\Projects\OGRE_APP\Release\OGRE_APP.exe" /NOLOGO /LIBPATH:"d:\VR\OGRESDK_VC10_V1-8-0\lib\release" /LIBPATH:"d:\VR\OGRESDK_VC10_V1-8-0\boost\lib" /LIBPATH:"D:\vr\CEGUI\CEGUI-0.7.5\lib" /LIBPATH:"D:\vr\CEGUI\CEGUI-0.7.5\dependencies\lib\dynamic" /LIBPATH:"D:\vr\CEGUI\CEGUI-0.7.5\dependencies\lib\static" /LIBPATH:"D:\VR\FMOD\FMOD PROGRAMMERS API WINDOWS\API\API\lib" OgreMain.lib OIS.lib CEGUIBase.lib CEGUIOgreRenderer.lib CEGUICoronaImageCodec.lib CEGUIDirect3D9Renderer.lib CEGUIExpatParser.lib CEGUIFalagardWRBase.lib CEGUIFreeImageImageCodec.lib CEGUILuaScriptModule.lib CEGUITGAImageCodec.lib CEGUISTBImageCodec.lib fmodex_vc.lib /MANIFEST /ManifestFile:"Release\OGRE_APP.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"e:\documents\visual studio 2010\Projects\OGRE_APP\Release\OGRE_APP.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"e:\documents\visual studio 2010\Projects\OGRE_APP\Release\OGRE_APP.lib" /MACHINE:X86 Release\define.obj
+         Release\ThreeDimentionalApplication.obj
+         Release\MyFrameListener.obj
+         Release\GuiSystem.obj
+         Release\main.obj
+         Release\OgreApp.obj
+         Release\SoundSystem.obj
+         Release\stdafx.obj
+         正在生成代码
+         已完成代码的生成
+         OGRE_APP.vcxproj -> e:\documents\visual studio 2010\Projects\OGRE_APP\Release\OGRE_APP.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"e:\documents\visual studio 2010\Projects\OGRE_APP\Release\OGRE_APP.exe;#1" /manifest Release\OGRE_APP.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Release\OGRE_APP.unsuccessfulbuild”。
+         正在对“Release\OGRE_APP.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“e:\documents\visual studio 2010\Projects\OGRE_APP\OGRE_APP\OGRE_APP.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:11.82

@@ -1,0 +1,34 @@
+﻿生成启动时间为 2014/8/22 22:00:13。
+     1>项目“e:\documents\visual studio 2010\Projects\OGRE_APP\OGRE_APP\OGRE_APP.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug\OGRE_APP.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"d:\VR\OGRESDK_VC10_V1-8-0\include" /I"d:\VR\OGRESDK_VC10_V1-8-0\include\OGRE" /I"d:\VR\OGRESDK_VC10_V1-8-0\include\OIS" /I"D:\vr\CEGUI\CEGUI-0.7.5\cegui\include" /I"D:\vr\CEGUI\CEGUI-0.7.5\dependencies\include" /I"D:\vr\CEGUI\CEGUI-0.7.5\Samples\common\include" /I"D:\vr\CEGUI\CEGUI-0.7.5\cegui\include\elements" /I"D:\vr\CEGUI\CEGUI-0.7.5\cegui\include\falagard" /I"D:\vr\CEGUI\CEGUI-0.7.5\cegui\include\ImageCodecModules" /I"D:\vr\CEGUI\CEGUI-0.7.5\cegui\include\RendererModules" /I"D:\vr\CEGUI\CEGUI-0.7.5\cegui\include\ScriptingModules" /I"D:\vr\CEGUI\CEGUI-0.7.5\cegui\include\WindowRendererSets" /I"D:\vr\CEGUI\CEGUI-0.7.5\cegui\include\XMLParserModules" /I"D:\VR\FMOD\FMOD PROGRAMMERS API WINDOWS\API\API\inc" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt OgreApp.cpp
+         OgreApp.cpp
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\exampleframelistener.h(343): warning C4244: “+=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\exampleframelistener.h(344): warning C4244: “-=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\exampleframelistener.h(348): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\exampleframelistener.h(349): warning C4244: “参数”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>d:\vr\ogresdk_vc10_v1-8-0\include\ogre\exampleframelistener.h(454): warning C4244: “-=”: 从“double”转换到“Ogre::Real”，可能丢失数据
+     1>e:\documents\visual studio 2010\projects\ogre_app\ogre_app\ogreapp.cpp(708): warning C4129: “: 不可识别的字符转义序列
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"e:\documents\visual studio 2010\Projects\OGRE_APP\Debug\OGRE_APP.exe" /NOLOGO /LIBPATH:"d:\VR\OGRESDK_VC10_V1-8-0\lib\debug" /LIBPATH:"d:\VR\OGRESDK_VC10_V1-8-0\boost\lib" /LIBPATH:"D:\vr\CEGUI\CEGUI-0.7.5\lib" /LIBPATH:"D:\vr\CEGUI\CEGUI-0.7.5\dependencies\lib\dynamic" /LIBPATH:"D:\vr\CEGUI\CEGUI-0.7.5\dependencies\lib\static" /LIBPATH:"D:\VR\FMOD\FMOD PROGRAMMERS API WINDOWS\API\API\lib" OgreMain_d.lib OIS_d.lib CEGUIBase_d.lib CEGUIOgreRenderer_d.lib CEGUICoronaImageCodec_d.lib CEGUIDirect3D9Renderer_d.lib CEGUIExpatParser_d.lib CEGUIFalagardWRBase_d.lib CEGUIFreeImageImageCodec_d.lib CEGUILuaScriptModule_d.lib CEGUITGAImageCodec_d.lib CEGUISTBImageCodec_d.lib fmodex_vc.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\OGRE_APP.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"e:\documents\visual studio 2010\Projects\OGRE_APP\Debug\OGRE_APP.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"e:\documents\visual studio 2010\Projects\OGRE_APP\Debug\OGRE_APP.lib" /MACHINE:X86 Debug\define.obj
+         Debug\ThreeDimentionalApplication.obj
+         Debug\MyFrameListener.obj
+         Debug\GuiSystem.obj
+         Debug\main.obj
+         Debug\OgreApp.obj
+         Debug\SoundSystem.obj
+         Debug\stdafx.obj
+         LINK : 没有找到 e:\documents\visual studio 2010\Projects\OGRE_APP\Debug\OGRE_APP.exe 或上一个增量链接没有生成它；正在执行完全链接
+         OGRE_APP.vcxproj -> e:\documents\visual studio 2010\Projects\OGRE_APP\Debug\OGRE_APP.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"e:\documents\visual studio 2010\Projects\OGRE_APP\Debug\OGRE_APP.exe;#1" /manifest Debug\OGRE_APP.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\OGRE_APP.unsuccessfulbuild”。
+         正在对“Debug\OGRE_APP.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“e:\documents\visual studio 2010\Projects\OGRE_APP\OGRE_APP\OGRE_APP.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.94
